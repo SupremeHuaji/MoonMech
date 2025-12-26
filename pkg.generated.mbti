@@ -1,0 +1,328 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "username/MoonMech"
+
+// Values
+pub const ALPHA_CAM_MAX : Double = 30.0
+
+pub const C_SPRING_MAX : Double = 16.0
+
+pub const C_SPRING_MIN : Double = 4.0
+
+pub const C_STAR_STD : Double = 0.25
+
+pub const D2_COEFF : Double = 0.85
+
+pub const DEG_TO_RAD : Double = 0.017453292519943295
+
+pub const DELTA_FLYWHEEL : Double = 0.05
+
+pub const EPSILON : Double = 1.0e-10
+
+pub const E_ALUMINUM : Double = 70.0
+
+pub const E_CAST_IRON : Double = 120.0
+
+pub const E_COPPER : Double = 110.0
+
+pub const E_STEEL : Double = 206.0
+
+pub const FP_LOAD : Double = 1.0
+
+pub const FT_TEMP : Double = 1.0
+
+pub const GAMMA_MIN_LINKAGE : Double = 40.0
+
+pub const GPA_TO_PA : Double = 1000000000.0
+
+pub const G_SPRING : Double = 79.0
+
+pub const G_STEEL : Double = 79.0
+
+pub const HA_STAR_STD : Double = 1.0
+
+pub const KW_TO_W : Double = 1000.0
+
+pub const K_ALPHA_V_BELT : Double = 0.9
+
+pub const K_SPRING : Double = 1.2
+
+pub const L10_BASE : Double = 1.0
+
+pub const LAMBDA_CRANK : Double = 1.0
+
+pub const L_D_V_BELT_1000 : Double = 1000.0
+
+pub const L_D_V_BELT_1600 : Double = 1600.0
+
+pub const L_D_V_BELT_2500 : Double = 2500.0
+
+pub const MM_TO_M : Double = 0.001
+
+pub const MODULE_STD_1 : Double = 1.0
+
+pub const MODULE_STD_2 : Double = 2.0
+
+pub const MODULE_STD_3 : Double = 3.0
+
+pub const MODULE_STD_4 : Double = 4.0
+
+pub const MODULE_STD_5 : Double = 5.0
+
+pub const MPA_TO_PA : Double = 1000000.0
+
+pub const MU_NUT : Double = 0.15
+
+pub const MU_THREAD : Double = 0.15
+
+pub const M_TO_MM : Double = 1000.0
+
+pub const NMM_TO_NM : Double = 0.001
+
+pub const NM_TO_NMM : Double = 1000.0
+
+pub const NU_STEEL : Double = 0.3
+
+pub const N_AXIS : Double = 2.5
+
+pub const PI : Double = 3.141592653589793
+
+pub const POLYGON_EFFECT : Double = 1.0
+
+pub const PRESSURE_ANGLE_STD : Double = 20.0
+
+pub const P_BALL_BEARING : Double = 3.0
+
+pub const P_CHAIN_12_7 : Double = 12.7
+
+pub const P_CHAIN_15_875 : Double = 15.875
+
+pub const P_CHAIN_19_05 : Double = 19.05
+
+pub const P_CHAIN_25_4 : Double = 25.4
+
+pub const P_ROLLER_BEARING : Double = 3.33333333333
+
+pub const RAD_S_TO_RPM : Double = 9.549296586
+
+pub const RAD_TO_DEG : Double = 57.29577951308232
+
+pub const RHO_FLYWHEEL : Double = 7200.0
+
+pub const RHO_STEEL : Double = 7850.0
+
+pub const RPM_TO_RAD_S : Double = 0.104719755
+
+pub const R_BASE_CAM_MIN : Double = 20.0
+
+pub const SIGMA_B_AXIS : Double = 55.0
+
+pub const SIGMA_P_KEY_DYNAMIC : Double = 50.0
+
+pub const SIGMA_P_KEY_STATIC : Double = 120.0
+
+pub const SLIP_RATIO : Double = 0.01
+
+pub const TAU_P_KEY : Double = 90.0
+
+pub const TAU_T_AXIS : Double = 30.0
+
+pub const THREAD_ANGLE : Double = 60.0
+
+pub const W_TO_KW : Double = 0.001
+
+pub const Z_MIN_STD : Int = 17
+
+pub fn abs(Double) -> Double
+
+pub fn acos(Double) -> Double
+
+pub fn angular_velocity(Double) -> Double
+
+pub fn approx_equal(Double, Double, Double) -> Bool
+
+pub fn asin(Double) -> Double
+
+pub fn atan2(Double, Double) -> Double
+
+pub fn bearing_equivalent_dynamic_load(Double, Double, Double, Double) -> Double
+
+pub fn bearing_life(Double, Double, Double) -> Double
+
+pub fn bearing_life_hours(Double, Double) -> Double
+
+pub fn bearing_required_c(Double, Double, Double, Double) -> Double
+
+pub fn belt_contact_angle(Double, Double, Double) -> Double
+
+pub fn belt_effective_tension(Double, Double) -> Double
+
+pub fn belt_length(Double, Double, Double) -> Double
+
+pub fn belt_ratio(Double, Double) -> Double
+
+pub fn belt_slack_side_tension(Double, Double) -> Double
+
+pub fn belt_tight_side_tension(Double, Double, Double) -> Double
+
+pub fn bending_stress(Double, Double, Double) -> Double
+
+pub fn bisection((Double) -> Double, Double, Double, Double) -> Double
+
+pub fn cam_pressure_angle(Double, Double, Double, Double) -> Double
+
+pub fn cam_theoretical_radius(Double, Double, Double) -> Double
+
+pub fn cbrt(Double) -> Double
+
+pub fn centripetal_acceleration(Double, Double) -> Double
+
+pub fn chain_center_distance(Double, Double) -> Double
+
+pub fn chain_effective_tension(Double, Double) -> Double
+
+pub fn chain_length(Double, Double, Int, Int) -> Double
+
+pub fn chain_ratio(Int, Int) -> Double
+
+pub fn chain_velocity(Int, Double, Double) -> Double
+
+pub fn circle_area(Double) -> Double
+
+pub fn circle_inertia(Double) -> Double
+
+pub fn circle_perimeter(Double) -> Double
+
+pub fn circle_polar_inertia(Double) -> Double
+
+pub fn circle_section_modulus(Double) -> Double
+
+pub fn clamp(Double, Double, Double) -> Double
+
+pub fn cos(Double) -> Double
+
+pub fn crank_existence_condition(Double, Double, Double, Double) -> Bool
+
+pub fn cube(Double) -> Double
+
+pub fn deg_to_rad(Double) -> Double
+
+pub fn efficiency(Double, Double) -> Double
+
+pub fn flywheel_diameter(Double, Double) -> Double
+
+pub fn flywheel_mass(Double, Double) -> Double
+
+pub fn flywheel_moment_of_inertia(Double, Double, Double) -> Double
+
+pub fn four_bar_transmission_angle(Double, Double, Double, Double) -> Double
+
+pub fn gear_addendum_diameter(Double, Int, Double) -> Double
+
+pub fn gear_bending_stress(Double, Double, Double, Double, Double) -> Double
+
+pub fn gear_center_distance(Double, Int, Int) -> Double
+
+pub fn gear_contact_stress(Double, Double, Double, Double) -> Double
+
+pub fn gear_dedendum_diameter(Double, Int, Double, Double) -> Double
+
+pub fn gear_normal_force(Double, Double) -> Double
+
+pub fn gear_pitch_diameter(Double, Int) -> Double
+
+pub fn gear_radial_force(Double, Double) -> Double
+
+pub fn gear_ratio(Int, Int) -> Double
+
+pub fn gear_tangential_force(Double, Double) -> Double
+
+pub fn key_crushing_stress(Double, Double, Double, Double) -> Double
+
+pub fn key_shear_stress(Double, Double, Double, Double) -> Double
+
+pub fn key_strength_check(Double, Double, Double, Double) -> Bool
+
+pub fn linear_velocity(Double, Double) -> Double
+
+pub fn max(Double, Double) -> Double
+
+pub fn min(Double, Double) -> Double
+
+pub fn newton_method((Double) -> Double, (Double) -> Double, Double, Double) -> Double
+
+pub fn normal_stress(Double, Double) -> Double
+
+pub fn pow(Double, Double) -> Double
+
+pub fn pow4(Double) -> Double
+
+pub fn power_from_torque(Double, Double) -> Double
+
+pub fn power_loss(Double, Double) -> Double
+
+pub fn rad_to_deg(Double) -> Double
+
+pub fn rect_area(Double, Double) -> Double
+
+pub fn rect_inertia(Double, Double) -> Double
+
+pub fn rect_section_modulus(Double, Double) -> Double
+
+pub fn ring_area(Double, Double) -> Double
+
+pub fn rpm_from_angular_velocity(Double) -> Double
+
+pub fn safe_div(Double, Double, Double) -> Double
+
+pub fn shaft_critical_speed(Double, Double, Double, Double, Double) -> Double
+
+pub fn shaft_equivalent_moment(Double, Double, Double) -> Double
+
+pub fn shaft_equivalent_stress(Double, Double) -> Double
+
+pub fn shaft_min_diameter_torsion(Double, Double) -> Double
+
+pub fn shear_stress(Double, Double) -> Double
+
+pub fn sin(Double) -> Double
+
+pub fn spring_curvature_coefficient(Double) -> Double
+
+pub fn spring_deflection(Double, Double) -> Double
+
+pub fn spring_index(Double, Double) -> Double
+
+pub fn spring_max_stress(Double, Double, Double, Double) -> Double
+
+pub fn spring_stiffness(Double, Double, Double, Int) -> Double
+
+pub fn square(Double) -> Double
+
+pub fn tan(Double) -> Double
+
+pub fn thread_lead_angle(Double, Double) -> Double
+
+pub fn thread_pitch_diameter(Double) -> Double
+
+pub fn thread_preload(Double, Double) -> Double
+
+pub fn thread_self_locking(Double, Double) -> Bool
+
+pub fn torque_from_power(Double, Double) -> Double
+
+pub fn torsional_stress(Double, Double, Double) -> Double
+
+pub fn worm_efficiency(Double, Double) -> Double
+
+pub fn worm_lead_angle(Int, Double, Double) -> Double
+
+pub fn worm_ratio(Int, Int) -> Double
+
+// Errors
+
+// Types and methods
+
+// Type aliases
+
+// Traits
+
