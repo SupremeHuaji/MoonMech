@@ -309,8 +309,3 @@ The current version (0.1.0) implements **core mechanical engineering calculation
 * Mechanical utilities (power, torque, velocity calculations)
 * Fatigue and life calculations
 * Stress and deflection analysis
-
-The library is actively developed and aims to provide comprehensive coverage of mechanical engineering calculations while being optimized for MoonBit.
- 
- 
-
