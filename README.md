@@ -310,5 +310,6 @@ The current version (0.1.0) implements **core mechanical engineering calculation
 * Fatigue and life calculations
 * Stress and deflection analysis
 
-The library is actively developed and aims to provide comprehensive coverage of mechanical engineering calculations while being optimized for MoonBit.#   M o o n M e c h  
+The library is actively developed and aims to provide comprehensive coverage of mechanical engineering calculations while being optimized for MoonBit.#   M o o n M e c h 
+ 
  
